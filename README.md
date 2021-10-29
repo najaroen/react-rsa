@@ -17,10 +17,10 @@
 -```cat rsa_1024_pub.pem```
 
 
-openssl genrsa private01.pem 4096
+<!-- openssl genrsa private01.pem 4096
 
 openssl genrsa -out private01.pem 4096
 
 openssl rsa -in private01.pem -pubout -outform PEM -out public01_key.pem
 
-openssl pkcs -topk8 -inform PEM -in private01.pem -out private01_key.pem -nocrypt
+openssl pkcs -topk8 -inform PEM -in private01.pem -out private01_key.pem -nocrypt -->
